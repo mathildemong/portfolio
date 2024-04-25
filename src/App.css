@@ -1,0 +1,178 @@
+
+
+
+
+.Home{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+ 
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+
+}
+
+.About{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.Work{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  
+}
+
+
+.nav{
+  
+  display: flex;
+  gap: 20px;
+  color: white !important;
+  justify-content: left !important;
+  margin-left: 100px !important;
+  text-decoration: none;
+}
+
+.nav-item{
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 10px;
+}
+.nav-item a{
+  text: rgb(255, 255, 255) !important;
+  font-family: 'Space Mono', monospace;
+  text-decoration: none !important;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+
+
+.nav-item  a:hover {
+  text-decoration: none !important;
+background-color: rgb(255, 255, 255);
+  z-index: 1;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.title{
+ 
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-size: 70px;
+  color: white;
+  justify-content: left !important;
+  margin-left: 100px !important;
+  
+  
+}
+
+/* ANIMATION WAVES */
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+box-sizing: border-box;
+}
+
+.wavesA{
+   
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 5px;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+  
+}
+
+.content {
+  position:relative;
+  text-align:center;
+  
+
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+.parallax > use:nth-child(5) {
+    animation-delay: -4s;
+    animation-duration: 20s;
+  }
+
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+   -webkit-transform: translate3d(-90px,0,0);
+   -moz-transform: translate3d(-90px,0,0);
+   -ms-transform: translate3d(-90px,0,0);
+   -o-transform: translate3d(-90px,0,0);
+}
+  100% {
+    transform: translate3d(85px,0,0);
+    -webkit-transform: translate3d(85px,0,0);
+    -moz-transform: translate3d(85px,0,0);
+    -ms-transform: translate3d(85px,0,0);
+    -o-transform: translate3d(85px,0,0);
+}
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:60px;
+    min-height:0px;
+  }
+  .content {
+    height:60vh;
+  }
+
+}
+
+/* ANIMATION CIRCLE WORK */
+

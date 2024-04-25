@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e85e7d2c.css",
+    "main.js": "/static/js/main.1a438147.js",
+    "static/media/site3.PNG": "/static/media/site3.738be7d25a7e8d0759dd.PNG",
+    "static/media/site1.PNG": "/static/media/site1.1020d1c01e9bf3ca8d91.PNG",
+    "static/media/site2.PNG": "/static/media/site2.4641b632966c12b67f88.PNG",
+    "static/media/mathildemonguillon.pdf": "/static/media/mathildemonguillon.b3549ccb1d76cf5acc2e.pdf",
+    "static/media/fond.jpg": "/static/media/fond.069fb1cf130bc2e93829.jpg",
+    "static/media/react.svg": "/static/media/react.f4d21d794054af8d20624a082749ef90.svg",
+    "static/media/wordpress.svg": "/static/media/wordpress.63987ea28858410c222f5b3d1e82442c.svg",
+    "static/media/php.svg": "/static/media/php.9d92758df293034849e0fc581971666a.svg",
+    "static/media/square-js.svg": "/static/media/square-js.163cd6afb0f4c644ea969ff7f0714ad4.svg",
+    "index.html": "/index.html",
+    "static/media/css3-alt.svg": "/static/media/css3-alt.ab607ef91025f17cd23d0b09f471033b.svg",
+    "static/media/html5.svg": "/static/media/html5.2bdd7259d54032f442015503b1caff62.svg",
+    "main.e85e7d2c.css.map": "/static/css/main.e85e7d2c.css.map",
+    "main.1a438147.js.map": "/static/js/main.1a438147.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e85e7d2c.css",
+    "static/js/main.1a438147.js"
+  ]
+}

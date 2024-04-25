@@ -1,0 +1,35 @@
+
+.nav{
+  
+    display: flex;
+    gap: 20px;
+    color: white !important;
+    justify-content: left !important;
+    margin-left: 100px !important;
+    text-decoration: none;
+  }
+  
+  .nav-item{
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 10px;
+  }
+  .nav-item a{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none !important;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+  }
+  
+  
+  .nav-item  a:hover {
+    text-decoration: none !important;
+  background-color: rgb(255, 255, 255);
+    z-index: 1;
+    font-family: 'Space Mono', monospace;
+  
+  }
