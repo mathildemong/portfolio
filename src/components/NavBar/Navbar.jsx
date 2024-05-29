@@ -3,12 +3,12 @@ import '../NavBar/navbar.css';
 
 function Navbar() {
   return (
-   
-   <div>
+  
+  <div>
     
-   <nav className='nav'>
+  <nav className='nav'>
       
-       <div class="nav-item">
+      <div class="nav-item">
           <a href="/">Home</a>
           </div>
           <div class="nav-item">
@@ -20,10 +20,10 @@ function Navbar() {
           <div class="nav-item">
           <a href="/Contact">Contact</a>
           </div>
-       
+    
       
       </nav>
-   
+
     </div>
   
 
