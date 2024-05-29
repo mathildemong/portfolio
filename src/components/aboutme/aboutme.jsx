@@ -1,14 +1,14 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
-import Reactimg from '../../assets/img/react.svg';
-import phpimg from '../../assets/img/php.svg';
-import htmlimg from '../../assets/img/html5.svg';
-import cssimg from '../../assets/img/css3-alt.svg';
-import jsimg from '../../assets/img/square-js.svg';
-import wordpressimg from '../../assets/img/wordpress.svg';
+import Reactimg from '../../assets/img/React.png';
+// import phpimg from '../../assets/img/php.svg';
+// import htmlimg from '../../assets/img/html5.svg';
+// import cssimg from '../../assets/img/css3-alt.svg';
+// import jsimg from '../../assets/img/square-js.svg';
+// import wordpressimg from '../../assets/img/wordpress.svg';
 import background from "../../assets/img/fond.png";
 import '../aboutme/aboutme.css';
-import cv from '../../assets/img/mathildemonguillon.pdf';
+import cv from '../../assets/img/cvmathildemonguillon.pdf';
 
 
 
@@ -30,11 +30,11 @@ function Aboutme() {
         <a href={cv} target = "cv">téléchargez mon CV.</a></p></div>
        <div className="logo"><div className="img">
        <div className="img1"><img style={{ width: "100%", height: "55%" }} src={Reactimg} alt="React img" /></div>
-       <div className="img3"><img style={{ width: "100%", height: "50%" }} src={cssimg} alt="css img" /></div>
+       {/* <div className="img3"><img style={{ width: "100%", height: "50%" }} src={cssimg} alt="css img" /></div>
        <div className="img4"><img style={{ width: "100%", height: "50%" }} src={jsimg} alt="js img" /></div>
        <div className="img5"><img style={{ width: "100%", height: "50%" }} src={wordpressimg} alt="wordpress img" /></div>
        <div className="img6"><img style={{ width: "100%", height: "50%" }} src={htmlimg} alt="html img" /></div>
-       <div className="img2"><img style={{ width: "100%", height: "55%" }} src={phpimg} alt="php img" /></div>
+       <div className="img2"><img style={{ width: "100%", height: "55%" }} src={phpimg} alt="php img" /></div> */}
        </div>
                  
             </div>
