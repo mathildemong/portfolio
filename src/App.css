@@ -1,5 +1,6 @@
 
-
+body { background-image: url("./assets/img/fond.png") 
+}
 
 
 .Home{
@@ -167,9 +168,6 @@ box-sizing: border-box;
   .waves {
     height:60px;
     min-height:0px;
-  }
-  .content {
-    height:60vh;
   }
 
 }
