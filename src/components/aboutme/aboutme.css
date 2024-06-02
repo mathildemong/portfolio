@@ -16,6 +16,9 @@ a:hover{
 display: flex;
 color: white !important;
 flex-direction: row;
+margin-left: 15%;
+
+
 
 
 
@@ -24,6 +27,7 @@ flex-direction: row;
 display: flex;
 color: rgb(255, 255, 255) !important;
 margin-top: 30px !important;
+gap: 40px;
 }
 .img1:hover{
     
@@ -65,7 +69,7 @@ margin-top: 30px !important;
 .Text{
     display: flex;
    
-    margin-top: 60px;
+    margin-top: 20px;
     color: rgb(219, 216, 216) !important;
     font-size: 20px;
     font-family: 'Space Mono', monospace;
