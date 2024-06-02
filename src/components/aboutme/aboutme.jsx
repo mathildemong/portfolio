@@ -30,13 +30,13 @@ function Aboutme() {
        <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours,  
         <a href={cv} target = "cv">téléchargez mon CV.</a></p></div>
        <div className="logo"><div className="img">
-       <div className="img1"><img style={{ width: "100%", height: "50%" }} src={Reactimg} alt="React img" /></div>
-      <div className="img3"><img style={{ width: "100%", height: "50%" }} src={cssimg} alt="css img" /></div>
+       <div className="img1"><img style={{ width: "50%", height: "50%" }} src={Reactimg} alt="React img" /></div>
+      <div className="img3"><img style={{ width: "50%", height: "50%" }} src={cssimg} alt="css img" /></div>
         {/* <div className="img4"><img style={{ width: "100%", height: "50%" }} src={jsimg} alt="js img" /></div>
        <div className="img5"><img style={{ width: "100%", height: "50%" }} src={wordpressimg} alt="wordpress img" /></div> */}
-         <div className="img6"><img style={{ width: "100%", height: "50%" }} src={nodeimg} alt="node img" /></div>
-      <div className="img6"><img style={{ width: "100%", height: "50%"}} src={htmlimg} alt="html img" /></div>
-       <div className="img2"><img style={{ width: "100%", height: "50%" }} src={phpimg} alt="php img" /></div> 
+         <div className="img6"><img style={{ width: "50%", height: "50%" }} src={nodeimg} alt="node img" /></div>
+      <div className="img6"><img style={{ width: "50%", height: "50%"}} src={htmlimg} alt="html img" /></div>
+       <div className="img2"><img style={{ width: "50%", height: "50%" }} src={phpimg} alt="php img" /></div> 
        </div>
                  
             </div>
