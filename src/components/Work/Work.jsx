@@ -44,7 +44,7 @@ function Work() {
 
 <div className="img3">
   
-  <a target="site3" href="http://sneackers.netlify.app">
+  <a target="site3" href="https://jdr-shop.netlify.app/">
     <img src={site3} alt="" width="75%"/>
   </a>
   
