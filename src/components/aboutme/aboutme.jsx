@@ -9,7 +9,7 @@ import cssimg from '../../assets/img/css.png';
 // import wordpressimg from '../../assets/img/wordpress.svg';
 import background from "../../assets/img/fond.png";
 import '../aboutme/aboutme.css';
-import cv from '../../assets/img/cvmathildemonguillon.pdf';
+import cv from '../../assets/img/cv.pdf';
 
 
 
