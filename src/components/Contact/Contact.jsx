@@ -1,7 +1,7 @@
 import NavBar from '../NavBar/Navbar'
 import '../Contact/contact.css';
 import React, { useRef } from 'react';
-import background from "../../assets/img/fond.png";
+// import background from "../../assets/img/fond.png";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
@@ -17,11 +17,11 @@ function Contact() {
      
   };
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
-    backgroundSize: ' 100% 100%',
-    height: '140vh',
-    boxSizing:'border-box',
-    }}>
+    // <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
+    // backgroundSize: ' 100% 100%',
+    // height: '140vh',
+    // boxSizing:'border-box',
+    // }}>
     <div className ="Contact">
         <h1 class="title">Me contacter
       </h1>
@@ -62,7 +62,7 @@ function Contact() {
         </svg>
         </div>
         </div>
-      </div>
+      // </div>
       
   )
 }

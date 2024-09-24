@@ -3,20 +3,20 @@ import NavBar from '../NavBar/Navbar'
 import site1 from '../../assets/img/site1.PNG';
 import site2 from '../../assets/img/site2.PNG';
 import site3 from '../../assets/img/site3.PNG';
-import background from "../../assets/img/fond.png";
+// import background from "../../assets/img/fond.png";
 import '../Work/work.css';
 
 
 
 function Work() {
   return (
-    <div  className="background"style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    height: '100vh',
-    widthheight: '100vh',
-    backgroundRepeat : 'no-repeat',
+    // <div  className="background"style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
+    // backgroundSize: 'cover',
+    // height: '100vh',
+    // widthheight: '100vh',
+    // backgroundRepeat : 'no-repeat',
    
-     }}>,
+    //  }}>,
    
     <div className="Work">
            <h1 className="title">Mes projets<br></br>
@@ -69,7 +69,7 @@ function Work() {
         </div>
  
     </div>
-    </div>
+    // </div>
   )
 }
 

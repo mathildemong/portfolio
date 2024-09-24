@@ -16,20 +16,15 @@ a:hover{
 display: flex;
 color: white !important;
 flex-direction: row;
-margin-left: 15%;
 
-
-
-
-
-}
+} 
 .img{
 display: flex;
 color: rgb(255, 255, 255) !important;
-margin-top: 30px !important;
 gap: 40px;
+
 }
-.img1:hover{
+/* .img1:hover{
     
         opacity: 20%;
         
@@ -64,7 +59,7 @@ gap: 40px;
     opacity: 20%;
    
 
-}
+} */
 
 .Text{
     display: flex;
@@ -77,11 +72,33 @@ gap: 40px;
 }
 
 
+.background{
+    background: url(../../assets/img/fond.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     img{
         display: flex;
         flex-direction: column;
+        max-width: 500px;
+      
    
     }
   }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles pour cette Media Queries */
+
+    .img{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      
+   
+    }
+    }

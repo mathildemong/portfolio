@@ -7,7 +7,7 @@ import cssimg from '../../assets/img/css.png';
 // import jsimg from '../../assets/img/square-js.svg';
  import nodeimg from '../../assets/img/node.png';
 // import wordpressimg from '../../assets/img/wordpress.svg';
-import background from "../../assets/img/fond.png";
+// import background from "../../assets/img/fond.png";
 import '../aboutme/aboutme.css';
 import cv from '../../assets/img/cv.pdf';
 
@@ -16,13 +16,13 @@ import cv from '../../assets/img/cv.pdf';
 function Aboutme() {
   return (
     
-    <div className='background'>
-       <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
-    backgroundSize: ' 100% 100%',
-    height: '140vh',
-    boxSizing: 'border-box',
+    // <div className='background'>
+    //    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
+    // backgroundSize: ' 100% 100%',
+    // height: '140vh',
+    // boxSizing: 'border-box',
     
-    }}>
+    // }}>
       <div className="About">
            <h1 class="title">Mon parcours<br></br>
      </h1>
@@ -56,8 +56,8 @@ function Aboutme() {
         </svg>
         </div>
  </div>
-    </div>
-    </div>
+  //   </div>
+    // </div>
   )
 }
 

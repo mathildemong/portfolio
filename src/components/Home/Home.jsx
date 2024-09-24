@@ -1,16 +1,16 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
-import background from "../../assets/img/fond.png";
+// import background from "../../assets/img/fond.png";
 import '../Home/home.css'; 
 
 
 function Home() {
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
-    backgroundSize: ' 100% 100%',
-    height: '140vh',
-    boxSizing:'border-box',
-    }}>
+    // <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
+    // backgroundSize: ' 100% 100%',
+    // height: '140vh',
+    // boxSizing:'border-box',
+    // }}>
       
     
       <div className='Home'>
@@ -38,7 +38,7 @@ function Home() {
         </div>
 </div>
 
-    </div>
+    // </div>
     
   )
 }
