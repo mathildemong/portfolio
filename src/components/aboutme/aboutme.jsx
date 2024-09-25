@@ -2,25 +2,51 @@ import React from 'react'
 import NavBar from '../NavBar/Navbar'
 import '../aboutme/aboutme.css';
 import cv from '../../assets/img/cv.pdf';
+import { 
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
 function Aboutme() {
   return (
     
-    // <div className='background'>
-    //    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: 'center',
-    // backgroundSize: ' 100% 100%',
-    // height: '140vh',
-    // boxSizing: 'border-box',
-    
-    // }}>
+
       <div className="About">
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
        <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours,  
         <a href={cv} target = "cv">téléchargez mon CV.</a></p></div>
+
+        
+ <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+     
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
+        </div>
      
             <div class="wavesA">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
