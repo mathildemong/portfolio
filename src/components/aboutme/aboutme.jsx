@@ -21,8 +21,7 @@ function Aboutme() {
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
-       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours,  
-        <a href={cv} target = "cv">téléchargez mon CV.</a></p></div>
+       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours</p>
 
         
  <div className="stage-cube-cont">
