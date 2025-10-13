@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
-import '../aboutme/aboutme.css';
-import cv from '../../assets/img/cv.pdf';
+import '../aboutme/aboutme.css'
 import { 
   faCss3,
   faGitAlt,
@@ -21,7 +20,7 @@ function Aboutme() {
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
-       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours.</p></div>
+       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours et mes missions.</p></div>
       
  <div className="stage-cube-cont">
           <div className="cubespinner">
