@@ -21,9 +21,8 @@ function Aboutme() {
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
-       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours</p>
-
-        
+       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours.</p></div>
+      
  <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
