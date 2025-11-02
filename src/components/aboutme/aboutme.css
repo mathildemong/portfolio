@@ -1,7 +1,7 @@
 
   
   .cubespinner {
-    margin: 30px;
+    margin-top: 80px;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -166,7 +166,7 @@ color: rgb(255, 255, 255) !important;
         background-size: cover;
     }
    .cubespinner {
-
+margin: 100px 0 0 0;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -179,7 +179,6 @@ color: rgb(255, 255, 255) !important;
       position: absolute;
       width: 200px;
       height: 200px;
-      margin: 100px;
       border: 1px solid #ccc;
       background: rgba(255, 255, 255, 0.4);
       text-align: center;

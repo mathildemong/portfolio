@@ -47,6 +47,17 @@ background-color: rgb(171, 171, 171);
 
 }
 
+.graph{
+    display: flex;
+    justify-content: left !important;
+    font-size: 15px;
+    text-decoration: none !important;
+    margin-top: 10px;
+    margin-left: 110px !important;
+    font-family: 'Space Mono', monospace;
+    color: rgb(219, 216, 216) !important;
+}
+
 
 .gallery{
     display: flex;
@@ -57,30 +68,29 @@ background-color: rgb(171, 171, 171);
 
 img {
     display: flex;
-    margin-left: 40px;
+    margin: 20px;
+   
  
    
 }
    .img1{
       display: flex;
       justify-content: left;
-      margin-top: 10px !important;
   
-     
+  
 }
 
 .img1:hover{
     opacity: 20%;
     transition: 1s;
-    
-   
+     
 }
  
 
     .img2{
         display: flex;
-     margin: 0px !important;
-       margin-top: 10px !important;
+    
+      
     }
     .img2:hover{
         opacity: 20%;
@@ -91,8 +101,8 @@ img {
     
     .img3{
         display: flex;
-     margin: 0px !important;
-       margin-top: 10px !important;
+    
+    
        
     }
     
@@ -129,22 +139,50 @@ img {
     .gallery{
         display: flex;
         flex-direction: column;
+        z-index: 3;
+        margin: 50px !important;
+      
     }
 
     .img{
         display: flex;
         flex-direction: column;
-      
+       
        
         }
+
+    .img1{
+      display: flex;
+      justify-content: left;
+      margin-top: 10px !important;
+      width: 700px;
+    
+  
+}
+
         .img2{
             display: flex;
+            width: 750px;
             flex-direction: column;
-            margin-left: 20px;
+             margin-top: 50px !important;
            
             }
+
+      .img3{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+      margin-top: 50px !important;
+       
+    }
         a{
             display: flex;
             flex-direction: column;
+        }
+
+        .wavesA{
+            display: flex;
+            flex-direction: column;
+            z-index: 2;
         }
   }

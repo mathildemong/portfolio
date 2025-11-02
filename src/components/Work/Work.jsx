@@ -20,9 +20,11 @@ function Work() {
    
     <div className="Work">
            <h1 className="title">Mes projets<br></br>
-     
+      
      </h1>
        <NavBar/>
+        <div className='graph'><a target="site" href="https://cargocollective.com/MathildeMong"> <p>Mon site de création graphiques</p></a>
+        </div>
        <div className="gallery">
        <div className="img1">
       
@@ -51,6 +53,8 @@ function Work() {
   
        </div>
        </div>
+            
+       
     
        <div class="wavesA">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
