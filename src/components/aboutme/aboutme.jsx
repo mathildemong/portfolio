@@ -1,5 +1,5 @@
-import React from 'react'
 import NavBar from '../NavBar/Navbar'
+import { SocialIcon } from 'react-social-icons'
 import '../aboutme/aboutme.css'
 import { 
   faCss3,
@@ -20,8 +20,21 @@ function Aboutme() {
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
-       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours et mes missions.</p></div>
-      
+       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours et mes missions.</p>
+       </div>
+
+
+<section className="experience-list">
+  <ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Git</li>
+
+  </ol>
+</section>
+      <section className="stage-cube-cont-section">
  <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
@@ -44,7 +57,17 @@ function Aboutme() {
             </div>
           </div>
         </div>
-     
+        </section>
+<section>
+        <div className="social-icons-aboutme">
+        <SocialIcon network="github" url="https://github.com/mathildemong" />
+        <SocialIcon network="linkedin" url="https://www.linkedin.com/in/mathilde-monguillon-3a676a133/?locale=fr_FR"/>
+        <SocialIcon network="cargo" url="https://cargocollective.com/MathildeMong" />
+        <SocialIcon network="instagram" url="https://www.instagram.com/liminal_mood?igsh=MTJvemtxOGI1NThrZA%3D%3D&fbclid=PAZXh0bgNhZW0CMTEAAadCaBgXyahKsWaC9uyLRSdzVlBytESf3YZnu_9A4u7wX-uBE4QehpfNy6akTA_aem_5eQ2Lh_sQNYNtLqSWhcclQ" />
+      </div>
+      </section>
+
+<section>
             <div class="wavesA">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -60,6 +83,7 @@ function Aboutme() {
         </g>
         </svg>
         </div>
+        </section>
  </div>
   //   </div>
     // </div>

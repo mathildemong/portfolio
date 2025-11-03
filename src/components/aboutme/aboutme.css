@@ -1,14 +1,15 @@
 
   
   .cubespinner {
-    margin-top: 80px;
+    
+   margin-left: 1300px;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+   
   
     div {
       position: absolute;
@@ -72,6 +73,23 @@
     }
   }
   
+ 
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li{color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+     list-style-type: none;
+    margin-bottom: 10px;
+}
 
 a{
     text-decoration: none;
@@ -84,6 +102,24 @@ a:hover{
     background-color: rgb(255, 255, 255);
     
 }
+
+
+.social-icons-aboutme{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    gap: 20px;
+}
+.wavesA{
+    display: flex;
+    flex-direction: column;
+   z-index: -1;
+   
+}
+
 
 .logo{
 display: flex;
@@ -165,15 +201,17 @@ color: rgb(255, 255, 255) !important;
         -o-background-size: cover;
         background-size: cover;
     }
+
+
    .cubespinner {
-margin: 100px 0 0 0;
+ 
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+ 
   
     div {
       position: absolute;

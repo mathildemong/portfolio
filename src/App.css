@@ -55,7 +55,6 @@ body { background-image: url("./assets/img/fond.png")
 .nav-item  a:hover {
   text-decoration: none !important;
 background-color: rgb(255, 255, 255);
-  z-index: 1;
   font-family: 'Space Mono', monospace;
 
 }
@@ -153,6 +152,7 @@ box-sizing: border-box;
     height:60px;
     min-height:0px;
   }
+
 
 }
 
