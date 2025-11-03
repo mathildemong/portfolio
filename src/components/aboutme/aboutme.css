@@ -1,7 +1,7 @@
 
-  
+   
   .cubespinner {
-    
+    position: fixed;
    margin-left: 1300px;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -73,6 +73,7 @@
     }
   }
   
+  
  
 
 ol {
@@ -107,18 +108,14 @@ a:hover{
 .social-icons-aboutme{
  
     display: flex;
+    z-index: 4;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 250px;
     gap: 20px;
 }
-.wavesA{
-    display: flex;
-    flex-direction: column;
-   z-index: -1;
-   
-}
+
 
 
 .logo{
@@ -203,15 +200,33 @@ color: rgb(255, 255, 255) !important;
     }
 
 
-   .cubespinner {
+  .wavesA{
+      display: flex;
+      flex-direction: row;
+      
+  }    
+.social-icons-aboutme{
  
+    display: flex;
+    z-index: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    gap: 20px;
+}
+
+  .cubespinner {
+   
+     position: fixed;
+   margin-left: 100px;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
- 
+   
   
     div {
       position: absolute;
@@ -228,6 +243,7 @@ color: rgb(255, 255, 255) !important;
     }
   
     .face1 {
+      
       transform: translateZ(100px);
       color: #dd0031;
     }
@@ -252,5 +268,58 @@ color: rgb(255, 255, 255) !important;
       color: #ec4d28;
     }
   }
+  
+  @keyframes spincube {
+    from,
+    to {
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+      transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    33% {
+      transform: rotateY(-90deg) rotateX(90deg);
+    }
+    50% {
+      transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+      transform: rotateY(-270deg) rotateX(90deg);
+    }
+    83% {
+      transform: rotateX(90deg);
+    }
   }
+  
+  
+    .face1 {
+      transform: translateZ(100px);
+      color: #dd0031;
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(100px);
+      color: #f06529;
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      color: #28a4d9;
+      -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      -ms-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      -o-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+      color: #5ed4f4;
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+      color: #efd81d;
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(100px);
+      color: #ec4d28;
+    }
+  }
+  
 
