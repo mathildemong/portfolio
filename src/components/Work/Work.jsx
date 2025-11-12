@@ -28,7 +28,7 @@ function Work() {
        <div className="gallery">
        <div className="">
       
-       <a target="site" href="https://liminalmm.netlify.app/">
+       <a target="site1" href="https://liminalmm.netlify.app/">
     <img src={site1} alt=""width="75%"/>
   </a>
   
