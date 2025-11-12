@@ -26,7 +26,7 @@ function Work() {
         <div className='graph'><a target="site" href="https://cargocollective.com/MathildeMong"> <p>Mon site de création graphiques</p></a>
         </div>
        <div className="gallery">
-       <div className="">
+       <div className="hoover1">
       
        <a target="site1" href="https://liminalmm.netlify.app/">
     <img src={site1} alt=""width="75%"/>
