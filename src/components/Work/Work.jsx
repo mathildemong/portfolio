@@ -26,22 +26,20 @@ function Work() {
         <div className='graph'><a target="site" href="https://cargocollective.com/MathildeMong"> <p>Mon site de création graphiques</p></a>
         </div>
        <div className="gallery">
-       <div className="hoover1">
-      
+   
+      <div className="img1">
        <a target="site1" href="https://liminalmm.netlify.app/">
     <img src={site1} alt=""width="75%"/>
   </a>
+  </div>
   
-</div>
+<div className="img2">
 
-<div className="">
-
-  <div className="hoover2">
   <a target="site2" href="https://shinning-hotel.netlify.app/">
     <img src={site2} alt="" width="75%"/>
   </a>
   
-</div>
+
 </div>
 
 <div className="img3">
