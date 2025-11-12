@@ -24,18 +24,18 @@ function Work() {
      </h1>
        <NavBar/>
        <div className="gallery">
-       <div className="img1">
+       <div className="">
       
-       <a target="site" href="http://shoplounge.netlify.app">
+       <a target="site" href="https://liminalmm.netlify.app/">
     <img src={site1} alt=""width="85%"/>
   </a>
   
 </div>
 
-<div className="img2">
+<div className="">
 
   <div className="hoover2">
-  <a target="site2" href="http://hexashop2.netlify.app">
+  <a target="site2" href="https://sneackers.netlify.app/">
     <img src={site2} alt="" width="80%"/>
   </a>
   
