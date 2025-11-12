@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
-import site1 from '../../assets/img/site1.PNG';
-import site2 from '../../assets/img/site2.PNG';
+import site1 from '../../assets/img/site1.png';
+import site2 from '../../assets/img/site2.png';
 import site3 from '../../assets/img/site3.PNG';
 // import background from "../../assets/img/fond.png";
 import '../Work/work.css';
@@ -29,7 +29,7 @@ function Work() {
        <div className="">
       
        <a target="site" href="https://liminalmm.netlify.app/">
-    <img src={site1} alt=""width="85%"/>
+    <img src={site1} alt=""width="75%"/>
   </a>
   
 </div>
@@ -37,8 +37,8 @@ function Work() {
 <div className="">
 
   <div className="hoover2">
-  <a target="site2" href="https://sneackers.netlify.app/">
-    <img src={site2} alt="" width="80%"/>
+  <a target="site2" href="https://shinning-hotel.netlify.app/">
+    <img src={site2} alt="" width="75%"/>
   </a>
   
 </div>
