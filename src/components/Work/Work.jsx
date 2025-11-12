@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
 import site1 from '../../assets/img/site1.PNG';
-import site2 from '../../assets/img/site1.PNG';
+import site2 from '../../assets/img/site2.PNG';
 import site3 from '../../assets/img/site3.PNG';
 // import background from "../../assets/img/fond.png";
 import '../Work/work.css';
