@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e909fd1f.css",
-    "main.js": "/static/js/main.d12cadee.js",
+    "main.css": "/static/css/main.37f489c2.css",
+    "main.js": "/static/js/main.699fb902.js",
     "static/media/fond.png": "/static/media/fond.a4c04ec308e335418088.png",
-    "static/media/site3.PNG": "/static/media/site3.738be7d25a7e8d0759dd.PNG",
     "static/media/site1.PNG": "/static/media/site1.1020d1c01e9bf3ca8d91.PNG",
     "static/media/site2.PNG": "/static/media/site2.4641b632966c12b67f88.PNG",
-    "static/media/node.png": "/static/media/node.701d5c1fea79f57e0d4b.png",
-    "static/media/css.png": "/static/media/css.4969476c17a346c9a9f9.png",
-    "static/media/React.png": "/static/media/React.a6ed95134fa117fb6b89.png",
-    "static/media/cvmathildemonguillon.pdf": "/static/media/cvmathildemonguillon.89d4163e71dea4696574.pdf",
-    "static/media/html.png": "/static/media/html.29dd45fc769afa95259c.png",
-    "static/media/php.png": "/static/media/php.2d5e8f63c8faa897e53d.png",
+    "static/media/site3.PNG": "/static/media/site3.1286f04ead11340c0856.PNG",
     "index.html": "/index.html",
-    "main.e909fd1f.css.map": "/static/css/main.e909fd1f.css.map",
-    "main.d12cadee.js.map": "/static/js/main.d12cadee.js.map"
+    "main.37f489c2.css.map": "/static/css/main.37f489c2.css.map",
+    "main.699fb902.js.map": "/static/js/main.699fb902.js.map"
   },
   "entrypoints": [
-    "static/css/main.e909fd1f.css",
-    "static/js/main.d12cadee.js"
+    "static/css/main.37f489c2.css",
+    "static/js/main.699fb902.js"
   ]
 }

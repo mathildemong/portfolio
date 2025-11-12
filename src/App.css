@@ -16,11 +16,6 @@ body { background-image: url("./assets/img/fond.png")
 
 }
 
-.About{
-  display: flex;
-  flex-direction: column;
-  width:100%;
-}
 
 .Work{
   display: flex;
@@ -60,7 +55,6 @@ body { background-image: url("./assets/img/fond.png")
 .nav-item  a:hover {
   text-decoration: none !important;
 background-color: rgb(255, 255, 255);
-  z-index: 1;
   font-family: 'Space Mono', monospace;
 
 }
@@ -91,7 +85,7 @@ box-sizing: border-box;
 }
 
 .waves {
-  position:fixed;
+  position:relative;
   bottom: 0;
   width: 100%;
   font-size: 5px;
@@ -158,6 +152,7 @@ box-sizing: border-box;
     height:60px;
     min-height:0px;
   }
+
 
 }
 
