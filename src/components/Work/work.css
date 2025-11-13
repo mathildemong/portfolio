@@ -18,6 +18,10 @@
   font-family: 'Space Mono', monospace;
   text-decoration: none;
   transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .nav-item a:hover {
@@ -48,7 +52,7 @@
 
 .gallery img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
   transition: opacity 0.3s ease;
 }
