@@ -1,16 +1,16 @@
 
    
   .cubespinner {
-    position: fixed;
-   margin-left: 1300px;
+    position: relative;
+    width: 200px;
+    height: 200px;
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-   
-  
+
     div {
       position: absolute;
       width: 200px;
@@ -24,7 +24,7 @@
       align-items: center;
       box-shadow: 0 0 20px 0px lightyellow;
     }
-  
+
     .face1 {
       transform: translateZ(100px);
       color: #dd0031;
@@ -106,14 +106,16 @@ a:hover{
 
 
 .social-icons-aboutme{
- 
-    display: flex;
-    z-index: 4;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    gap: 20px;
+  display: flex;
+  z-index: 20;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  gap: 18px;
 }
 
 
@@ -177,6 +179,36 @@ color: rgb(255, 255, 255) !important;
 
 }
 
+.about-layout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  min-height: 60vh;
+}
+
+.social-column{
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-cube-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+
 
 .background{
     background: url(../../assets/img/fond.png) no-repeat center center fixed; 
@@ -203,50 +235,20 @@ color: rgb(255, 255, 255) !important;
   .wavesA{
       display: flex;
       flex-direction: row;
-      
-  }    
-.social-icons-aboutme{
- 
-    display: flex;
-    z-index: 4;
+  }
+
+  .social-icons-aboutme{
+    position: static;
+    transform: none;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    gap: 20px;
-}
+    margin-top: 20px;
+    gap: 14px;
+  }
 
   .cubespinner {
-   
-     position: fixed;
-   margin-left: 100px;
-    animation-name: spincube;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-    transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-   
-  
-    div {
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      border: 1px solid #ccc;
-      background: rgba(255, 255, 255, 0.4);
-      text-align: center;
-      font-size: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 20px 0px lightyellow;
-    }
-  
-    .face1 {
-      
-      transform: translateZ(100px);
-      color: #dd0031;
-    }
+    position: relative;
+    margin-left: 0;
+  }
     .face2 {
       transform: rotateY(90deg) translateZ(100px);
       color: #f06529;
