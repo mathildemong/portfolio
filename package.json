@@ -55,7 +55,7 @@
     ]
   },
   "devDependencies": {
-    "@netlify/vite-plugin": "^2.7.12",
+    "@netlify/vite-plugin": "^2.12.8",
     "eslint-config-react-app": "^7.0.1",
     "typescript": "^4.9.5"
   }

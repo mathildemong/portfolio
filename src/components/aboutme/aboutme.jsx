@@ -21,8 +21,6 @@ function Aboutme() {
      </h1>
        <NavBar/>
        
-
-
 <section className="experience-list">
 
 </section>
