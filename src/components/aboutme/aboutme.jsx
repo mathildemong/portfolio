@@ -5,6 +5,7 @@ import '../aboutme/aboutme.css'
 import { 
   faCss3,
   faGitAlt,
+  faGithub,
   faHtml5,
   faJsSquare,
   faReact,
@@ -69,7 +70,9 @@ function Aboutme() {
               onPointerLeave={handlePointerUp}
             >
               <div className="cubespinner" style={cubeStyle}>
-                <div className="face1"></div>
+                <div className="face1">
+                  <FontAwesomeIcon icon={faGithub} color="#333" />
+                </div>
                 <div className="face2">
                   <FontAwesomeIcon icon={faHtml5} color="#F06529" />
                 </div>
