@@ -1,3 +1,4 @@
+import { useState, useRef } from 'react'
 import NavBar from '../NavBar/Navbar'
 import { SocialIcon } from 'react-social-icons'
 import '../aboutme/aboutme.css'
@@ -13,6 +14,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function Aboutme() {
+  const [rotation, setRotation] = useState({ x: -20, y: 20 })
+  const [dragging, setDragging] = useState(false)
+  const startPointer = useRef({ x: 0, y: 0 })
+  const startRotation = useRef({ x: -20, y: 20 })
+
+  const handlePointerDown = (event) => {
+    setDragging(true)
+    startPointer.current = { x: event.clientX, y: event.clientY }
+    startRotation.current = { ...rotation }
+    event.currentTarget.setPointerCapture(event.pointerId)
+  }
+
+  const handlePointerMove = (event) => {
+    if (!dragging) return
+    const dx = event.clientX - startPointer.current.x
+    const dy = event.clientY - startPointer.current.y
+    setRotation({
+      x: Math.max(-90, Math.min(90, startRotation.current.x - dy)),
+      y: startRotation.current.y + dx,
+    })
+  }
+
+  const handlePointerUp = (event) => {
+    setDragging(false)
+    event.currentTarget.releasePointerCapture(event.pointerId)
+  }
+
+  const cubeStyle = {
+    transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
+  }
+
   return (
     <div className="About">
       <h1 className="title">Mon parcours<br /></h1>
@@ -30,8 +62,13 @@ function Aboutme() {
 
         <main className="about-main">
           <section className="stage-cube-cont-section">
-            <div className="stage-cube-cont">
-              <div className="cubespinner">
+            <div className="stage-cube-cont"
+              onPointerDown={handlePointerDown}
+              onPointerMove={handlePointerMove}
+              onPointerUp={handlePointerUp}
+              onPointerLeave={handlePointerUp}
+            >
+              <div className="cubespinner" style={cubeStyle}>
                 <div className="face1"></div>
                 <div className="face2">
                   <FontAwesomeIcon icon={faHtml5} color="#F06529" />
