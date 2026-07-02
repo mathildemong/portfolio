@@ -20,19 +20,11 @@ function Aboutme() {
            <h1 class="title">Mon parcours<br></br>
      </h1>
        <NavBar/>
-       <div className="Text"><p>Voici les différentes technologies que j'ai pu utiliser durant mon parcours et mes missions.</p>
-       </div>
+       
 
 
 <section className="experience-list">
-  <ol>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>React</li>
-  <li>Git</li>
 
-  </ol>
 </section>
       <section className="stage-cube-cont-section">
  <div className="stage-cube-cont">
