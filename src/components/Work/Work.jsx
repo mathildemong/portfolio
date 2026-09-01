@@ -27,6 +27,12 @@ function Work() {
         </div>
        <div className="gallery">
    
+
+      <div className="img0">
+       <a target="site0" href="https://les-sentiers.netlify.app/">
+    <img src={site0} alt=""width="75%"/>
+  </a>
+  </div>
       <div className="img1">
        <a target="site1" href="https://liminalmm.netlify.app/">
     <img src={site1} alt=""width="75%"/>
