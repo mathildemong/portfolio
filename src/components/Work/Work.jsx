@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar/Navbar'
-import site0 from '../../assets/img/site0.PNG';
+import site0 from '../../assets/img/site0.png';
 import site1 from '../../assets/img/site1.PNG';
 import site2 from '../../assets/img/site2.PNG';
 import site3 from '../../assets/img/site3.PNG';
